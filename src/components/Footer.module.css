@@ -1,0 +1,16 @@
+.footer {
+    background: rgb(255, 255, 255);
+    border-top: 1.5px solid rgb(219, 223, 234);
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    color: rgb(128, 148, 173);
+}

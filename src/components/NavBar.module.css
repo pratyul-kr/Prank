@@ -1,0 +1,79 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(15, 15, 15);
+  color: rgb(234, 234, 234);
+  padding-block: 0.5rem;
+  padding-inline: 0.625rem;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.hide {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.upper_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'Outfit', sans-serif;
+  text-decoration: none;
+  color: rgb(234, 234, 234);
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: rgb(234, 234, 234);
+}
+
+.icon {
+  font-size: 1.75rem;
+}
+
+.lower_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-between;
+  padding-block: 0.5rem;
+  padding-inline: 0.625rem;
+  border: 0.09375rem solid rgb(39, 39, 39);
+  border-radius: 2rem;
+}
+
+.Link {
+  color: rgb(234, 234, 234);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  padding-block: 0.375rem;
+  padding-inline: 0.875rem;
+  background-color: rgb(39, 39, 39);
+  border-radius: 2rem;
+}
