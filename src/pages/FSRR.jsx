@@ -15,7 +15,7 @@ function FSRR() {
         <input placeholder="Registration Number"></input>
         <input placeholder="DOB"></input>
         <Link className={styles.view} onClick={() => setShowElement(true)}>View</Link>
-        <Link className={styles.reset}>Reset</Link>
+        <Link className={styles.reset} onClick={() => setShowElement(false)}>Reset</Link>
       </div>
        {showElement && <img className={styles.hehe} src={hehe} alt="Example" />}
     </main>
