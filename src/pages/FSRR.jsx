@@ -13,7 +13,7 @@ function FSRR() {
       <div className={styles.title}>5th Semester - Results</div>
       <div className={styles.content}>
         <input placeholder="Registration Number"></input>
-        <input placeholder="DOB"></input>
+        <input type="date"></input>
         <Link className={styles.view} onClick={() => setShowElement(true)}>View</Link>
         <Link className={styles.reset} onClick={() => setShowElement(false)}>Reset</Link>
       </div>
